@@ -18,7 +18,7 @@
     "lodash.isempty": "^4.4.0",
     "lodash.map": "^4.6.0",
     "lodash.mapvalues": "^4.6.0",
-    "lodash.merge": "^4.6.0",
+    "lodash.merge": "^4.6.2",
     "lodash.transform": "^4.6.0"
   }
 }
