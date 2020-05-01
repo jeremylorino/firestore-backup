@@ -4,7 +4,9 @@
   "description": "Backup the data in a Firestore database",
   "main": "./src/index.js",
   "scripts": {
-    "test": "node ./test/index.js"
+    "test": "node ./test/index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "firestore"
@@ -19,6 +21,8 @@
     "lodash.map": "^4.6.0",
     "lodash.mapvalues": "^4.6.0",
     "lodash.merge": "^4.6.0",
-    "lodash.transform": "^4.6.0"
-  }
+    "lodash.transform": "^4.6.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
