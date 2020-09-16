@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@google-cloud/firestore": "^0.13.0",
-    "firebase-admin": "^5.8.2",
+    "firebase-admin": "^9.2.0",
     "lodash.hasin": "^4.5.2",
     "lodash.isempty": "^4.4.0",
     "lodash.map": "^4.6.0",
